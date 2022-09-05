@@ -26,7 +26,7 @@ color = random.choice(list(color_codes.keys()))
 def main():
     #return 'Hello'
     print(color)
-    return ({color: color_codes[color]})
+    return ({"color": color_codes[color]})
 
 
 if __name__ == "__main__":
